@@ -61,7 +61,7 @@ a {font-family: sans-serif; color: $primary-color;
     @include translateX(10px);
 }
 
-@mixin animation-time ($time) {
+@mixin animation-time ($time: 500ms) {
     -webkit-transform: $time ease;
     -moz-transform: $time ease;
     -ms-transform: $time ease;
@@ -69,11 +69,11 @@ a {font-family: sans-serif; color: $primary-color;
     transform: $time ease;
 }
 .box1 {
-    @include animation-time(360ms);
+    @include animation-time;
 }
 .box2 {
-    @include animation-time(360ms);
+    @include animation-time;
 }
 .box3 {
-    @include animation-time(360ms);
+    @include animation-time;
 }

@@ -48,24 +48,24 @@ a {
   transform: translateX(10px); }
 
 .box1 {
-  -webkit-transform: 360ms ease;
-  -moz-transform: 360ms ease;
-  -ms-transform: 360ms ease;
-  -o-transform: 360ms ease;
-  transform: 360ms ease; }
+  -webkit-transform: 500ms ease;
+  -moz-transform: 500ms ease;
+  -ms-transform: 500ms ease;
+  -o-transform: 500ms ease;
+  transform: 500ms ease; }
 
 .box2 {
-  -webkit-transform: 360ms ease;
-  -moz-transform: 360ms ease;
-  -ms-transform: 360ms ease;
-  -o-transform: 360ms ease;
-  transform: 360ms ease; }
+  -webkit-transform: 500ms ease;
+  -moz-transform: 500ms ease;
+  -ms-transform: 500ms ease;
+  -o-transform: 500ms ease;
+  transform: 500ms ease; }
 
 .box3 {
-  -webkit-transform: 360ms ease;
-  -moz-transform: 360ms ease;
-  -ms-transform: 360ms ease;
-  -o-transform: 360ms ease;
-  transform: 360ms ease; }
+  -webkit-transform: 500ms ease;
+  -moz-transform: 500ms ease;
+  -ms-transform: 500ms ease;
+  -o-transform: 500ms ease;
+  transform: 500ms ease; }
 
 /*# sourceMappingURL=output.css.map */
