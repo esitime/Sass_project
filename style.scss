@@ -1,3 +1,6 @@
+@import 'partials/reset';
+@import 'partials/mixin';
+
 $primary-color: #F00;
 $border-width: 3px;
 $container: 1440px;
@@ -45,13 +48,7 @@ a {font-family: sans-serif; color: $primary-color;
 }
 }
 
-@mixin translateX($val) {
-    -webkit-transform: translateX($val);
-    -moz-transform: translateX($val);
-    -webkit-transform: translateX($val);
-    -ms-transform: translateX($val);
-    transform: translateX($val);
-}
+
 
 .translateX {
     @include translateX (14px);
@@ -61,13 +58,6 @@ a {font-family: sans-serif; color: $primary-color;
     @include translateX(10px);
 }
 
-@mixin animation-time ($time: 500ms) {
-    -webkit-transform: $time ease;
-    -moz-transform: $time ease;
-    -ms-transform: $time ease;
-    -o-transform: $time ease;
-    transform: $time ease;
-}
 .box1 {
     @include animation-time;
 }

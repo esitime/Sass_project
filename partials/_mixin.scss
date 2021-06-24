@@ -1,0 +1,15 @@
+@mixin animation-time ($time: 500ms) {
+    -webkit-transform: $time ease;
+    -moz-transform: $time ease;
+    -ms-transform: $time ease;
+    -o-transform: $time ease;
+    transform: $time ease;
+}
+
+@mixin translateX($val) {
+    -webkit-transform: translateX($val);
+    -moz-transform: translateX($val);
+    -webkit-transform: translateX($val);
+    -ms-transform: translateX($val);
+    transform: translateX($val);
+}
