@@ -44,8 +44,8 @@ a {font-family: sans-serif; color: $primary-color;
     &.another-class { color:green;
         &:hover,
         &:focus,
-        &:active { color:blue;}
-}
+        &:active { color:blue;} 
+    }
 }
 
 
