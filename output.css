@@ -1,0 +1,71 @@
+.half {
+  height: 707.5px; }
+
+.half1 {
+  height: 718.9130434783px; }
+
+.half2 {
+  height: 707.5px; }
+
+.first-class, .second-class {
+  color: #f00;
+  font-family: sans-serif;
+  text-decoration: underline; }
+
+.second-class {
+  border-color: #fff; }
+
+.border-blue {
+  border-color: blue;
+  border-width: 3px; }
+
+.border-red {
+  border-color: red;
+  border-width: 3px; }
+
+a {
+  font-family: sans-serif;
+  color: #F00; }
+  a:hover, a:focus, a:active {
+    color: blue; }
+  a.another-class {
+    color: green; }
+    a.another-class:hover, a.another-class:focus, a.another-class:active {
+      color: blue; }
+
+.translateX {
+  -webkit-transform: translateX(14px);
+  -moz-transform: translateX(14px);
+  -webkit-transform: translateX(14px);
+  -ms-transform: translateX(14px);
+  transform: translateX(14px); }
+
+.transformX {
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  transform: translateX(10px); }
+
+.box1 {
+  -webkit-transform: 360ms ease;
+  -moz-transform: 360ms ease;
+  -ms-transform: 360ms ease;
+  -o-transform: 360ms ease;
+  transform: 360ms ease; }
+
+.box2 {
+  -webkit-transform: 360ms ease;
+  -moz-transform: 360ms ease;
+  -ms-transform: 360ms ease;
+  -o-transform: 360ms ease;
+  transform: 360ms ease; }
+
+.box3 {
+  -webkit-transform: 360ms ease;
+  -moz-transform: 360ms ease;
+  -ms-transform: 360ms ease;
+  -o-transform: 360ms ease;
+  transform: 360ms ease; }
+
+/*# sourceMappingURL=output.css.map */

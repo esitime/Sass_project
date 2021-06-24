@@ -1,0 +1,79 @@
+$primary-color: #F00;
+$border-width: 3px;
+$container: 1440px;
+$padding: 25px;
+
+@function half-height ($first, $second){
+    @return $container / $first - $padding / $second;
+}
+
+.half{
+    height: half-height(2,2);
+}
+.half1{
+    height: half-height(2,23);
+}
+.half2{
+    height: half-height(2,2);
+}
+
+.first-class{
+    color: #f00;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.second-class{
+    @extend .first-class;
+    border-color: #fff;
+}
+.border-blue{
+    border-color: blue;
+    border-width: $border-width;
+}
+.border-red{
+    border-color: red;
+    border-width: $border-width;
+}
+a {font-family: sans-serif; color: $primary-color;
+    &:hover,
+    &:focus,
+    &:active{color:blue;}
+    &.another-class { color:green;
+        &:hover,
+        &:focus,
+        &:active { color:blue;}
+}
+}
+
+@mixin translateX($val) {
+    -webkit-transform: translateX($val);
+    -moz-transform: translateX($val);
+    -webkit-transform: translateX($val);
+    -ms-transform: translateX($val);
+    transform: translateX($val);
+}
+
+.translateX {
+    @include translateX (14px);
+}
+
+.transformX {
+    @include translateX(10px);
+}
+
+@mixin animation-time ($time) {
+    -webkit-transform: $time ease;
+    -moz-transform: $time ease;
+    -ms-transform: $time ease;
+    -o-transform: $time ease;
+    transform: $time ease;
+}
+.box1 {
+    @include animation-time(360ms);
+}
+.box2 {
+    @include animation-time(360ms);
+}
+.box3 {
+    @include animation-time(360ms);
+}
